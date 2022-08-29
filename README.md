@@ -1,6 +1,6 @@
 The effect of the Covid-19 Pandemic on Smoking and Alcohol Use
 ==============================================================
-*Master's Thesis Submission - Abraham Raju (3296612)
+**Master's Thesis Submission - Abraham Raju (3296612)**
 
 
 This repository contains the code to generate all plots and regressions. To run the coding scripts, first move the confidential data files of the LISS data files into the raw data folder as given below.
