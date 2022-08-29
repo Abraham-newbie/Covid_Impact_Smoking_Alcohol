@@ -1,0 +1,53 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{4}{c}}
+\hline\hline
+                &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}\\
+                &\multicolumn{1}{c}{ln\_smoker\_num\_cigs\_day}&\multicolumn{1}{c}{ln\_smoker\_num\_cigs\_day}&\multicolumn{1}{c}{ln\_smoker\_num\_cigs\_day}&\multicolumn{1}{c}{ln\_smoker\_num\_cigs\_day}\\
+\hline
+year=2018       &    0.000   &    0.000   &            &            \\
+                &      (.)   &      (.)   &            &            \\
+[1em]
+year=2019       &   -0.128   &   -0.149   &            &            \\
+                &  (0.097)   &  (0.097)   &            &            \\
+[1em]
+year=2020       &   -0.215** &   -0.238** &    0.000   &    0.000   \\
+                &  (0.095)   &  (0.094)   &      (.)   &      (.)   \\
+[1em]
+year=2021       &   -0.209** &   -0.239** &   -0.006   &   -0.008   \\
+                &  (0.099)   &  (0.099)   &  (0.056)   &  (0.056)   \\
+[1em]
+preloaded variable: age&            &    0.001   &    0.008   &    0.007   \\
+                &            &  (0.003)   &  (0.005)   &  (0.005)   \\
+[1em]
+preloaded variable: gender&            &    0.183   &    0.365*  &    0.361*  \\
+                &            &  (0.142)   &  (0.214)   &  (0.213)   \\
+[1em]
+How would you describe your health, generally speaking?&            &   -0.098*  &   -0.166** &   -0.173***\\
+                &            &  (0.052)   &  (0.066)   &  (0.066)   \\
+[1em]
+I felt depressed and gloomy&            &   -0.005   &            &    0.008   \\
+                &            &  (0.046)   &            &  (0.064)   \\
+[1em]
+I felt very anxious&            &   -0.009   &            &   -0.030   \\
+                &            &  (0.054)   &            &  (0.077)   \\
+[1em]
+preloaded variable: paid job or not&            &            &    0.187   &    0.187   \\
+                &            &            &  (0.139)   &  (0.139)   \\
+[1em]
+drug\_any\_taken  &            &            &   -0.259   &   -0.260   \\
+                &            &            &  (0.225)   &  (0.225)   \\
+[1em]
+On how many of the past seven days did you have a drink containing alcohol?&            &            &    0.016   &    0.016   \\
+                &            &            &  (0.023)   &  (0.023)   \\
+[1em]
+COVID-19 (new corona virus)&            &            &   -0.000   &   -0.009   \\
+                &            &            &  (0.230)   &  (0.231)   \\
+\hline
+\hspace{2mm}    &  958.000   &  958.000   &  438.000   &  438.000   \\
+Observations    &    0.005   &    0.017   &    0.044   &    0.045   \\
+\hline\hline
+\multicolumn{5}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{5}{l}{\footnotesize * p<0.1, ** p<0.05, *** p<0.01}\\
+\end{tabular}
+}

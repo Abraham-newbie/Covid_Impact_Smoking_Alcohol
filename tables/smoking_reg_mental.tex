@@ -1,0 +1,37 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{}
+\begin{tabular}{l*{4}{c}}
+\toprule
+                &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}\\
+                &\multicolumn{1}{c}{Cigarettes per day}&\multicolumn{1}{c}{Cigarettes per day}&\multicolumn{1}{c}{Cigarettes per day}&\multicolumn{1}{c}{Cigarettes per day}\\
+\midrule
+Cigarettes per day&            &            &            &            \\
+2020m11         &   -0.016   &    0.069   &    0.030   &    0.012   \\
+                &  (0.063)   &  (0.066)   &  (0.020)   &  (0.022)   \\
+2021m11         &   -0.036   &    0.053   &   -0.013   &   -0.012   \\
+                &  (0.062)   &  (0.068)   &  (0.022)   &  (0.023)   \\
+good\_health=1   &   -0.240***&   -0.188***&   -0.247***&   -0.221***\\
+                &  (0.058)   &  (0.060)   &  (0.055)   &  (0.058)   \\
+Depressed Often=1 $\times$ 2020m11&    0.086   &   -0.026   &    0.080   &    0.049   \\
+                &  (0.119)   &  (0.117)   &  (0.114)   &  (0.114)   \\
+Depressed Often=1 $\times$ 2021m11&   -0.041   &   -0.291** &   -0.030   &   -0.227*  \\
+                &  (0.133)   &  (0.125)   &  (0.127)   &  (0.124)   \\
+Anxious often=1 $\times$ 2020m11&   -0.025   &    0.030   &   -0.029   &    0.065   \\
+                &  (0.134)   &  (0.109)   &  (0.132)   &  (0.109)   \\
+Anxious often=1 $\times$ 2021m11&    0.021   &    0.154   &    0.024   &    0.201*  \\
+                &  (0.153)   &  (0.105)   &  (0.154)   &  (0.104)   \\
+Happy Often=1 $\times$ 2020m11&    0.006   &   -0.159** &            &            \\
+                &  (0.066)   &  (0.064)   &            &            \\
+Happy Often=1 $\times$ 2021m11&   -0.022   &   -0.167** &            &            \\
+                &  (0.067)   &  (0.070)   &            &            \\
+Constant        &    0.956***&    0.922***&    0.924***&    0.889***\\
+                &  (0.115)   &  (0.111)   &  (0.109)   &  (0.104)   \\
+\midrule
+\hspace{2mm}    & 7010.000   & 8103.000   & 7010.000   & 8103.000   \\
+Observations    &            &            &            &            \\
+\bottomrule
+\multicolumn{5}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{5}{l}{\footnotesize * p<0.1, ** p<0.05, *** p<0.01}\\
+\end{tabular}
+\end{table}
