@@ -23,7 +23,7 @@ This folder contains the script files that clean the LISS surveys to generate cl
 
 2.  `data_visualization`
 
-This folder contains both conditional and unconditional plots using the cleaned LISS data.
+This folder contains scripts that generate both conditional and unconditional plots using the cleaned LISS data.
 
 3.  `data_analysis`
 
