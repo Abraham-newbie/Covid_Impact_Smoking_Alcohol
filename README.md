@@ -1,4 +1,4 @@
-The effect of the Covid-19 Pandemic on Smoking and Alcohol Use
+The Effect of the Covid-19 Pandemic on Smoking and Alcohol Use
 ==============================================================
 **Master's Thesis Submission - Abraham Raju (3296612)**
 
